@@ -1,0 +1,110 @@
+/* Colors and fonts */
+
+body {
+	background-color: #FDF4F5;
+	color: #6D5D6E;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+}
+
+h1 {
+	font-family: 'Source Serif Pro', serif;
+	color: #643A6B;
+	font-size: 35px;
+	letter-spacing: 3px;
+}
+h2{
+	color: #9384D1;
+	font-weight: 100;
+	Letter-spacing:2px;
+	font-size:28px;
+}
+a{
+	text-decoration: none;
+	color: #D14D72;
+	font-weight: bolder;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: #77037B;
+}
+
+#picture{
+	width:160px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-bordered {
+	border: 3px solid;
+	border-color: #D14D72;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	}
+}
+
+
+
+
+.card-white{
+	background-color: white;
+	padding:40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-pink{
+	background-color: #D14D72 ;
+	color: white ;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover{
+	background-color:#77037B ;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display:inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #D14D72   ;
+}
+
+.list-inline i:hover{
+	color: #77037B ;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
